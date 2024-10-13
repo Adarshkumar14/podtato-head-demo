@@ -26,7 +26,7 @@ spec:
         - name: PODTATO_PORT
           value: "9000"
         - name: PODTATO_PART_NUMBER
-          value: "03"
+          value: "04"
         image: ghcr.io/podtato-head/right-arm:latest
         imagePullPolicy: Always
         name: server
