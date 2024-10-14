@@ -26,6 +26,7 @@ spec:
         - name: PODTATO_PORT
           value: "9000"
         image: ghcr.io/podtato-head/right-arm:latest
+        #image: docker.io/aady12/podtatohead-right-arm:latest 
         imagePullPolicy: Always
         name: server
         ports:
